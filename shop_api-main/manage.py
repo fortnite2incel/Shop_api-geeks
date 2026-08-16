@@ -6,7 +6,7 @@ import dotenv
 from pathlib import Path
 
 def main():
-    dotenv.load_dotenv()
+    dotenv.read_dotenv()
     """Run administrative tasks."""
     sys.path.append(str(Path(__file__).resolve().parent / "shop_api"))
     
